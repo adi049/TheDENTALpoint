@@ -15,43 +15,43 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       title: 'Root Canal Therapy',
       desc: 'Painless, precise root canal treatment that saves your natural tooth in as few visits as possible.',
-      img: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?fm=jpg&q=80&w=800&auto=format&fit=crop',
+      img: 'photos/root canal.webp',
       icon: '<path d="M12 2C9 2 6.5 3.8 6.5 7.2c0 2.1.6 3.1 1 5.4.4 2.2.4 5.6 1.6 7.7.5.9 1.2 1.5 1.9 1.5.9 0 1.2-1 1.5-2.6.2-1.2.4-2.7 1.5-2.7s1.3 1.5 1.5 2.7c.3 1.6.6 2.6 1.5 2.6.7 0 1.4-.6 1.9-1.5 1.2-2.1 1.2-5.5 1.6-7.7.4-2.3 1-3.3 1-5.4C17.5 3.8 15 2 12 2z" stroke="currentColor" stroke-width="1.4"/>'
     },
     {
       title: 'Dental Implants',
       desc: 'Long-lasting, natural-looking implants to replace missing teeth and restore full function.',
-      img: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?fm=jpg&q=80&w=800&auto=format&fit=crop',
+      img: 'photos/dental implant.webp',
       icon: '<path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>'
     },
     {
       title: 'Smile Makeover',
       desc: 'A tailored combination of cosmetic treatments designed to give you the smile you have always wanted.',
-      img: 'https://images.unsplash.com/photo-1581585504422-3d6d8c3f28f0?fm=jpg&q=80&w=800&auto=format&fit=crop',
+      img: 'photos/smaile maker.webp',
       icon: '<path d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="1.4"/>'
     },
     {
       title: 'Braces & Aligners',
       desc: 'Traditional braces and clear aligners for kids and adults, planned around your lifestyle.',
-      img: 'https://images.unsplash.com/photo-1652362912212-3ba0873c31e2?fm=jpg&q=80&w=800&auto=format&fit=crop',
+      img: 'photos/braces and aliners.webp',
       icon: '<path d="M20 21c0-4-3.6-6-8-6s-8 2-8 6M12 12a4.5 4.5 0 100-9 4.5 4.5 0 000 9z" stroke="currentColor" stroke-width="1.4"/>'
     },
     {
       title: 'Teeth Whitening',
       desc: 'Safe, fast in-clinic whitening that lifts years of staining for a brighter, more confident smile.',
-      img: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?fm=jpg&q=80&w=800&auto=format&fit=crop',
+      img: 'photos/teeth whitner.webp',
       icon: '<path d="M12 3l7 3v6c0 4.6-3 8.5-7 9.5-4-1-7-4.9-7-9.5V6l7-3z" stroke="currentColor" stroke-width="1.4"/>'
     },
     {
       title: 'Pediatric Dentistry',
       desc: 'Calm, friendly care designed to make young patients genuinely comfortable at the dentist.',
-      img: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?fm=jpg&q=80&w=800&auto=format&fit=crop',
+      img: 'photos/pediatric-dentist-talking-to-kid.webp',
       icon: '<path d="M20 21c0-4-3.6-6-8-6s-8 2-8 6M12 12a4.5 4.5 0 100-9 4.5 4.5 0 000 9z" stroke="currentColor" stroke-width="1.4"/>'
     },
     {
       title: 'Full Mouth Rehabilitation',
       desc: 'Comprehensive restoration for patients needing multiple treatments, planned as one clear journey.',
-      img: 'https://images.unsplash.com/photo-1588776814546-daab30f310ce?fm=jpg&q=80&w=800&auto=format&fit=crop',
+      img: 'photos/full_mouth_rehabilitation_burbank_dental_lab_03.webp',
       icon: '<path d="M3 21l3-3m0 0a4 4 0 105-6 4 4 0 00-5 6zM14 10l7-7M17 3h4v4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>'
     },
     {
@@ -63,14 +63,14 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   const GALLERY = [
-    { img: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?fm=jpg&q=80&w=700&auto=format&fit=crop', alt: 'Treatment chair at The Dental Point', tall: true },
-    { img: 'https://images.unsplash.com/photo-1580281657702-257584239a55?fm=jpg&q=80&w=700&auto=format&fit=crop', alt: 'Sterilization area' },
-    { img: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?fm=jpg&q=80&w=700&auto=format&fit=crop', alt: 'Consultation room' },
-    { img: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?fm=jpg&q=80&w=700&auto=format&fit=crop', alt: 'Digital X-ray equipment' },
-    { img: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?fm=jpg&q=80&w=700&auto=format&fit=crop', alt: 'Clinic reception area', tall: true },
-    { img: 'https://images.unsplash.com/photo-1581585504422-3d6d8c3f28f0?fm=jpg&q=80&w=700&auto=format&fit=crop', alt: 'Treatment tools laid out' },
-    { img: 'https://images.unsplash.com/photo-1652362912212-3ba0873c31e2?fm=jpg&q=80&w=700&auto=format&fit=crop', alt: 'Waiting lounge' },
-    { img: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?fm=jpg&q=80&w=700&auto=format&fit=crop', alt: 'Dr. Pooja Gaur at work' }
+    { img: 'photos/G1.png', alt: 'Treatment chair at The Dental Point', tall: true },
+    { img: 'photos/g2.png', alt: 'Sterilization area' },
+    { img: 'photos/g3.png', alt: 'Consultation room' },
+    { img: 'photos/g4.png', alt: 'Digital X-ray equipment' },
+    { img: 'photos/g5.png', alt: 'Clinic reception area', tall: true },
+    { img: 'photos/g6.png', alt: 'Treatment tools laid out' },
+    { img: 'photos/g2.png', alt: 'Waiting lounge' },
+    { img: 'photos/g2.png', alt: 'Dr. Pooja Gaur at work' }
   ];
 
   /* ---------------------------------------------------------
